@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local datasets and generated model outputs
+dataset/images/
+artifacts/**/*.pt
+
+# Python tooling and OS files
+.pytest_cache/
+.mypy_cache/
+.coverage
+.DS_Store
+Thumbs.db
